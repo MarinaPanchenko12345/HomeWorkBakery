@@ -1,0 +1,159 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1602&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-attachment: fixed;
+  width: 100%;
+  font-family: cetury , "Lucida Grande";
+  font-style: italic;
+  text-align: center;
+}
+
+a {
+  font-size: 55px;
+  color: black;
+  text-shadow: 2px 2px rgb(219, 105, 241);
+  padding: 0px 60px;
+}
+
+h1 {
+  font-size: 90px;
+  text-shadow: 3px 3px rgb(219, 105, 241);
+}
+h2 {
+  font-size: 65px;
+  text-shadow: 3px 3px rgb(219, 105, 241);
+}
+h3 {
+  font-size: 55px;
+  text-shadow: 3px 3px rgb(219, 105, 241);
+}
+p {
+  font-size: 40px;
+}
+
+.footer {
+  margin: 50px 10px;
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.container { /*index.html*/
+  display: flex;
+  width: 90%;
+  margin-top: 150px;
+  border: 3px black solid;
+  background-image: url("https://images.unsplash.com/photo-1486428128344-5413e434ad35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDE1fHxiYWtlcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+  background-color: rgb(219, 181, 250);
+  width: 20%;
+  border: 3px black solid;
+  margin: 100px;
+}
+
+.container1 { /*page1.html*/
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+.card1 {
+  background-color: rgb(219, 181, 250);
+  width: 30%;
+  margin: 20px 40px;
+  border: 3px black solid;
+  margin: 5px;
+}
+.container11 {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+.card11 {
+  background-color: rgb(219, 181, 250);
+  width: 20%;
+  margin: 20px 40px;
+  font-size: 55px;
+  text-shadow: 1px 1px rgb(21, 245, 226);
+  border: 3px black solid;
+}
+
+.container2 { /*page
+  display: flex;.html*/
+  width: 90%;
+  margin: 0 auto;
+}
+.container21 {
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+  border: 3px black solid;
+  background-image: url("https://images.unsplash.com/photo-1612201143788-b15844da6606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkzfHxiYWtlcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+.card2 {
+  background-color: rgb(219, 181, 250);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 3px black solid;
+}
+
+.container3 { /*page3.html*/
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.container31 {
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  border: 3px black solid;
+  background-image: url("https://images.unsplash.com/photo-1551404973-7dec6ee9bba7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAyfHxjYWtlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.card3 {
+  width: 60%;
+  margin: 0px 25px 20px 80px;
+  margin-top: 60px;
+  border: 3px black solid;
+}
+
+.container4 { /*page4.html*/
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  border: 3px black solid;
+  background-image: url("https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFrZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.myBtn { /*button*/
+  position: fixed;
+  bottom: 650px;
+  background-color: rgb(234, 129, 238);
+  border: 3px black solid;
+  color: black;
+  right: 5px;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 35px;
+}
